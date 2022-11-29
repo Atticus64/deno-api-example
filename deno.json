@@ -1,6 +1,7 @@
 {
   "tasks": {
     "start": "deno run --allow-net dist/server.js",
+    "start:prod": "deno run --allow-net dist/server.js",
     "build": "deno bundle src/server.ts > ./dist/server.js",
     "dev": "deno run --watch --allow-net src/server.ts",
     "lint": "deno lint",
