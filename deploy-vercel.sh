@@ -8,4 +8,4 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 /vercel/.deno/bin/deno task build
 
 # Run build
-/vercel/.deno/bin/deno run start
+/vercel/.deno/bin/deno task start
