@@ -1,9 +1,9 @@
 import { Router } from "../../deps.ts";
 import { User } from "../user.ts";
 
-const router = new Router();
+const routerUsers = new Router();
 
-router
+routerUsers
   .get("/users", (context) => {
     const usuario: User = {
       name: "Fernando",
@@ -14,4 +14,4 @@ router
     context.response.body = usuario;
   });
 
-export default router;
+export default routerUsers;

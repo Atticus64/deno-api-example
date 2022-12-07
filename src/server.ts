@@ -1,10 +1,10 @@
 import { Application, Context } from "../deps.ts";
-import router from "./routes/users.ts";
+import routerUsers from "./routes/users.ts";
 
 const app = new Application();
 const port = 3000;
 
-app.use(router.routes());
+app.use(routerUsers.routes());
 
 app.use(async (ctx: Context) => {
   try {
