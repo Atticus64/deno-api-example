@@ -9,9 +9,6 @@ const getUsers = (context: Context) => {
   };
   context.response.status = 200;
   context.response.body = usuario;
-}
+};
 
-export {
-  getUsers
-
-}
+export { getUsers };

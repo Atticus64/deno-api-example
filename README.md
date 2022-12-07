@@ -1,8 +1,8 @@
 # Example of Api in Deno 🦕
 
+1. Install deno cli
 
-1. Install deno cli 
-* [Getting Started Deno](https://deno.land/manual@v1.28.2/getting_started/installation)
+- [Getting Started Deno](https://deno.land/manual@v1.28.2/getting_started/installation)
 
 ## Scripts
 

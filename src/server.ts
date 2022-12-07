@@ -18,7 +18,5 @@ app.use(async (ctx: Context) => {
   }
 });
 
-
 console.log(`server running on http://localhost:${port} 🦀`);
 await app.listen({ port });
-
